@@ -32,7 +32,10 @@ int main()
                 rollDie();
             }
         }
-    } while (response != "no" && response != "n");
+    }
+    while (response != "no" && response != "n");
+    
+    cout << "Ending program" << endl;
 
     return 0;
 }
